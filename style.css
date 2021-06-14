@@ -1,0 +1,163 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Eurostile' sans-serif;
+}
+
+body{
+    background-color: #f4f7fa;
+}
+
+.login-wrapper{
+    background-color: #f4f7fa;
+}
+
+.logo-container{
+    margin: 20px;
+}
+
+.info-container{
+    padding: 3px;
+    /*margin-top: -85px;*/
+    margin-bottom: 1.5rem;
+}
+
+.login-body{
+    margin: 20px;
+    width: 90%;
+}
+
+.top-text{
+    font-size: 2em;
+    margin-bottom: .6rem;
+    color: #0A2E65;
+}
+
+.subtext{
+    font-size: 22.4px;
+    color: #0A2E654D;
+}
+
+.form-container{
+    background-color: #ffffff;
+    padding: 30px 20px;
+    border: 1px solid rgba(0,102,245,.15);
+}
+
+input{
+    padding: 20px;
+    width: 100%;
+    margin-bottom: 1.5em;
+    border: 1px solid rgba(10,46,101,.1);
+    color: #0A2E65;
+}
+
+a{
+    text-decoration: none;
+    color: #0066F5;
+}
+
+.column2{
+    margin-bottom: 1.5rem;
+}
+
+.footer{
+    width: 100%;
+}
+
+.user{
+    color: #0A2E6599;
+}
+
+.column3{
+    width: 100%;
+}
+
+.new{
+    margin-bottom: 1.1rem;
+}
+
+.btn-primary{
+    padding: 15px;
+    background-color: #0066F5;
+    width: 100px;
+    border-radius: 5px;
+    border: none;
+    color: #ffffff;
+}
+
+.footer{
+    margin-top: 30px!important;
+}
+
+.trbl{
+    color: #0A2E6599;
+}
+
+@media (min-width:768px){
+    .login-container{
+        margin: 80px;
+    }
+
+    .logo-container{
+        margin: 20px;
+    }
+
+    .login-body{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        max-width: 100%;
+        flex: 1 1 100%;
+        width: 1000px;
+    }
+
+    .info-container{
+        max-width: 50%;
+        text-align: left;
+        flex: 0 0 50%;
+    }
+
+    .auth-container{
+        max-width: 50%;
+        text-align: justify;
+        flex: 0 0 50%;
+    }
+
+    .form-container{
+        padding: 40px;
+    }
+
+    .column3{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    .new{
+        max-width: 50%;
+        text-align: left;
+        flex: 0 0 50%;
+    }
+
+    .btn{
+        text-align: right;
+        max-width: 50%;
+        flex-basis:50%;
+    }
+
+    .forg-pword{
+        margin-bottom: 3rem;
+    }
+
+    .top-text{
+        font-size: 3rem;
+    }
+
+    .subtext{
+        font-size: 1.7rem;
+    }
+}
