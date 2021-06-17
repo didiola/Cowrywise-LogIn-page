@@ -1,12 +1,44 @@
+@font-face {
+    font-family: 'CW BR Firma';
+    src: url('/fonts/BRFirmaCW-Regular.woff2') format('woff2');
+    font-weight: normal;
+    font-display: fallback;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'CW BR Firma';
+    src: url('/fonts/BRFirmaCW-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-display: fallback;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'CW BR Firma';
+    src: url('/fonts/BRFirmaCW-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-display: fallback;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: 'CW BR Firma';
+    src: url('/fonts/BRFirmaCW-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-display: fallback;
+    font-style: normal;
+  }
+
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Eurostile' sans-serif;
 }
 
 body{
     background-color: #f4f7fa;
+    font-family: "CW BR Firma";
 }
 
 .login-wrapper{
@@ -14,7 +46,12 @@ body{
 }
 
 .logo-container{
-    margin: 20px;
+    margin-top: 4rem;
+}
+
+.cowry{
+    display: block;
+    height: 5rem;
 }
 
 .info-container{
@@ -56,14 +93,11 @@ input{
 a{
     text-decoration: none;
     color: #0066F5;
+    font-weight: 600;
 }
 
 .column2{
     margin-bottom: 1.5rem;
-}
-
-.footer{
-    width: 100%;
 }
 
 .user{
@@ -88,7 +122,8 @@ a{
 }
 
 .footer{
-    margin-top: 30px!important;
+    margin-top: 10px!important;
+    width:100%;
 }
 
 .trbl{
@@ -154,10 +189,11 @@ a{
     }
 
     .top-text{
-        font-size: 3rem;
+        font-size: 2.5rem;
     }
 
     .subtext{
         font-size: 1.7rem;
+        font-weight: 700;
     }
 }
